@@ -1,0 +1,142 @@
+{
+  "__typename": "COLUMN",
+  "modifier": {
+    "padding" : 8,
+    "paddingDirection": "all",
+    "size": "fillMaxSize"
+  },
+  "horizontalArrangement": "CenterHorizontally",
+  "verticalAlignment": "Center",
+  "objects": [
+    {
+      "__typename": "CARD",
+      "modifier": {
+        "padding": 8,
+        "paddingDirection": "all",
+        "size": "default"
+      },
+      "objects": [
+        {
+          "__typename": "COLUMN",
+          "modifier": {
+            "padding": 8,
+            "paddingDirection": "all",
+            "size": "default"
+          },
+          "horizontalArrangement": "Start",
+          "verticalAlignment": "Top",
+          "objects": [
+            {
+              "__typename": "ROW",
+              "modifier": {
+                "padding": 0,
+                "paddingDirection": "default",
+                "size": "fillMaxWidth"
+              },
+              "objects": [
+                {
+                  "__typename": "IMAGE",
+                  "modifier": {
+                    "padding": 0,
+                    "paddingDirection": "default",
+                    "size": "60",
+                    "shape": "CircleShape"
+                  },
+                  "horizontalArrangement": "default",
+                  "verticalAlignment": "default",
+                  "value": "https://assets.setmore.com/website/v2/images/industry-pages/doctors/smiling-doctor-client-using-setmore.png"
+                },
+                {
+                  "__typename": "COLUMN",
+                  "modifier": {
+                    "padding": 8,
+                    "paddingDirection": "start",
+                    "size": "default"
+                  },
+                  "horizontalArrangement": "Start",
+                  "verticalAlignment": "Top",
+                  "objects": [
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 8,
+                        "paddingDirection": "Bottom",
+                        "size": "default",
+                        "color": "default",
+                        "style": "h5"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "Dr. Brian Leston"
+                    },
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 4,
+                        "paddingDirection": "vertical",
+                        "size": "default",
+                        "color": "grey",
+                        "style": "body1"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "Internal medicine, Primary care"
+                    },
+
+                    {
+                      "__typename": "ROW",
+                      "modifier": {
+                        "padding": 8,
+                        "paddingDirection": "vertical",
+                        "size": "fillMaxWidth"
+                      },
+                      "horizontalArrangement": "CenterVertically",
+                      "objects": [
+                        {
+                          "__typename": "ICON",
+                          "modifier": {
+                            "padding": 0,
+                            "paddingDirection": "default",
+                            "size": "16",
+                            "color": "#36006E"
+                          },
+                          "value": "locationOn"
+                        },
+                        {
+                          "__typename": "TEXT",
+                          "modifier": {
+                            "padding": 0,
+                            "paddingDirection": "default",
+                            "size": "default",
+                            "color": "#36006E",
+                            "style": "caption"
+                          },
+                          "horizontalArrangement": "default",
+                          "verticalAlignment": "default",
+                          "value": "1.9 mi"
+                        }
+                      ]
+                    },
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 4,
+                        "paddingDirection": "top",
+                        "size": "default",
+                        "color": "grey",
+                        "style": "caption"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "110 Sutter St, Fl 6, San Francisco, CA, 9410"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

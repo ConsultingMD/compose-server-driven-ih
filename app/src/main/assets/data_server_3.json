@@ -1,0 +1,155 @@
+{
+  "__typename": "COLUMN",
+  "modifier": {
+    "padding" : 8,
+    "paddingDirection": "all",
+    "size": "fillMaxSize"
+  },
+  "horizontalArrangement": "CenterHorizontally",
+  "verticalAlignment": "Center",
+  "objects": [
+    {
+      "__typename": "CARD",
+      "modifier": {
+        "padding": 0,
+        "paddingDirection": "default",
+        "size": "default"
+      },
+      "objects": [
+        {
+          "__typename": "COLUMN",
+          "modifier": {
+            "padding": 8,
+            "paddingDirection": "all",
+            "size": "default"
+          },
+          "horizontalArrangement": "Start",
+          "verticalAlignment": "Top",
+          "objects": [
+            {
+              "__typename": "ROW",
+              "modifier": {
+                "padding": 12,
+                "paddingDirection": "vertical",
+                "size": "fillMaxWidth"
+              },
+              "horizontalArrangement": "SpaceBetween",
+              "verticalAlignment": "CenterVertically",
+              "objects": [
+                {
+                  "__typename": "COLUMN",
+                  "modifier": {
+                    "padding": 8,
+                    "paddingDirection": "start",
+                    "size": "default"
+                  },
+                  "horizontalArrangement": "Start",
+                  "verticalAlignment": "Top",
+                  "objects": [
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 8,
+                        "paddingDirection": "Bottom",
+                        "size": "default",
+                        "color": "default",
+                        "style": "h5"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "Dr. Brian Leston"
+                    },
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 4,
+                        "paddingDirection": "vertical",
+                        "size": "default",
+                        "color": "grey",
+                        "style": "body1"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "Internal medicine, Primary care"
+                    }
+                  ]
+                },
+                {
+                  "__typename": "IMAGE",
+                  "modifier": {
+                    "padding": 0,
+                    "paddingDirection": "default",
+                    "size": "60",
+                    "shape": "CircleShape"
+                  },
+                  "horizontalArrangement": "default",
+                  "verticalAlignment": "default",
+                  "value": "https://assets.setmore.com/website/v2/images/industry-pages/doctors/smiling-doctor-client-using-setmore.png"
+                }
+              ]
+            },
+            {
+              "__typename": "ROW",
+              "modifier": {
+                "padding": 4,
+                "paddingDirection": "all",
+                "size": "fillMaxWidth"
+              },
+              "horizontalArrangement": "SpaceBetween",
+              "verticalAlignment": "CenterVertically",
+              "objects": [
+                {
+                  "__typename": "TEXT",
+                  "modifier": {
+                    "padding": 0,
+                    "paddingDirection": "default",
+                    "size": "default",
+                    "color": "grey",
+                    "style": "caption"
+                  },
+                  "horizontalArrangement": "default",
+                  "verticalAlignment": "default",
+                  "value": "110 Sutter St, Fl 6, San Francisco, CA, 9410"
+                },
+                {
+                  "__typename": "ROW",
+                  "modifier": {
+                    "padding": 0,
+                    "paddingDirection": "default",
+                    "size": "default"
+                  },
+                  "verticalAlignment": "CenterVertically",
+                  "objects": [
+                    {
+                      "__typename": "ICON",
+                      "modifier": {
+                        "padding": 0,
+                        "paddingDirection": "default",
+                        "size": "16",
+                        "color": "#038C8C"
+                      },
+                      "value": "locationOn"
+                    },
+                    {
+                      "__typename": "TEXT",
+                      "modifier": {
+                        "padding": 0,
+                        "paddingDirection": "default",
+                        "size": "default",
+                        "color": "secondary",
+                        "style": "body2"
+                      },
+                      "horizontalArrangement": "default",
+                      "verticalAlignment": "default",
+                      "value": "1.9 mi"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
