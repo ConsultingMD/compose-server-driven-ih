@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ServerDrivenApp</string>
+    <string name="next_design">Next Design</string>
+
+    <string name="current_design">Design from service %1$s</string>
+    <string name="error">Something went wrong %1$s</string>
+
 </resources>

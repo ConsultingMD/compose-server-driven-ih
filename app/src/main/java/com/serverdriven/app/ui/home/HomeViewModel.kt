@@ -2,17 +2,17 @@ package com.serverdriven.app.ui.home
 
 import android.content.Context
 import android.content.res.AssetManager
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
+import com.serverdriven.app.data.models.CustomView
+import com.serverdriven.app.utils.readAssetsFile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-
 
 class HomeViewModel : ViewModel() {
 
@@ -56,45 +56,16 @@ class HomeViewModel : ViewModel() {
         }
         getData(context)
     }
-}
 
-data class HomeUIState(
-    val child: List<CustomView> = emptyList(),
-    val isLoading: Boolean = true,
-    val error: String? = null
-)
-
-data class CustomView(
-    @SerializedName("__typename")
-    val typeName: TypeName = TypeName.UNKNOWN,
-    val modifier: CustomModifier = CustomModifier(),
-    @SerializedName("objects")
-    val children: List<CustomView> = emptyList(),
-    val horizontalArrangement: String? = "default",
-    val verticalAlignment: String? = "default",
-    val value: String? = "default",
-)
-
-data class CustomModifier(
-    val padding: Int? = 0,
-    val paddingDirection: String? = "default",
-    val size: String? =  "default",
-    val color: String? = "default",
-    val style: String? = "default",
-    val shape: String? = "default",
-    val border: String? = "default"
-)
-
-
-enum class TypeName {
-    UNKNOWN,
-    CARD,
-    COLUMN,
-    ROW,
-    TEXT,
-    IMAGE,
-    ICON
+    data class HomeUIState(
+        val child: List<CustomView> = emptyList(),
+        val isLoading: Boolean = true,
+        val error: String? = null
+    )
 }
 
 
-fun AssetManager.readAssetsFile(fileName: String): String = open(fileName).bufferedReader().use { it.readText() }
+
+
+
+
