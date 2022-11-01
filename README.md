@@ -1,4 +1,7 @@
-# compose-server-driven
+# Compose-server-driven
+This is a verys imple example hot to build interfaces with a server response, in this way we can build dinamyc ui and delete or add more elements without update our application just changing the backend service response, take care with the parameters in the .json files, we need to add more options and values to cast the data
+
+# Notes
  - We use the last version of compose
  - You can play with the diles .json to see the changes
 
